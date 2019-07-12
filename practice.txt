@@ -1,0 +1,7 @@
+﻿GIt 是一个分布式版本控制系统。
+Git是一个免费软件。
+Git跟踪文件的修改，而不是跟踪文件。
+
+1、git add 指令将文件放置在暂存区，git commit -m<message> 将暂存区文件全部提交至当前分支。
+2、git checkout -- file 将file在工作区的修改撤销
+3、git reset HEAD <file> 将暂存区中的file文件回退至工作区

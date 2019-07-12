@@ -3,5 +3,18 @@ Git是一个免费软件。
 Git跟踪文件的修改，而不是跟踪文件。
 
 1、git add 指令将文件放置在暂存区，git commit -m<message> 将暂存区文件全部提交至当前分支。
+
 2、git checkout -- file 将file在工作区的修改撤销
+
 3、git reset HEAD <file> 将暂存区中的file文件回退至工作区
+
+4、在GitHub上新建repository，利用 git remote add origin git@github.com:usename/repository_name 
+   指令将本地版本库与远程仓库关联；再利用 git push -u origin master 指令将版本库文件提交至远程
+   仓库。
+   
+5、利用 git clone git@github.com:usename/repository_name 将对应repository克隆至本地版本库。
+
+6、git checkout -b <分支名> (git branch <分支名> + git checkout <分支名>)
+   建立分支并切换至该分支。
+   
+7、git branch 查看所有分支，*标出当前所处分支。

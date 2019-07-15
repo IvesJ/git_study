@@ -25,6 +25,12 @@ Git跟踪文件的修改，而不是跟踪文件。
 
 10、git log --graph --pretty=oneline --abbrev-commit 查看分支的合并情况。
 
-11、git merge -no-ff -m <"提交说明"> <需要合并至master的分支名>
+11、git merge --no-ff -m <"提交说明"> <需要合并至master的分支名>
 
 12、git stash 保存工作现场
+
+13、git stash list 查看stash列表
+
+14、git stash pop 恢复工作现场，并删除stash内容
+
+15、git stash apply 恢复工作现场    git stash drop 删除stash内容
